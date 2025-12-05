@@ -10,4 +10,4 @@ Here is my tests files and some files what i need in school
    6. - Go to git app chose what your file, chose to what page you need to commit it.
    7. - Press commit button in buttom of app
         EKSAMPLES:
-        - ´pyton_eksaple.py´
+        - `pyton_eksaple.py`
