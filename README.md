@@ -9,3 +9,5 @@ How to commit files to git:
    5. Do something what you want to commit after
    6. Go to git app chose what your file, chose to what page you need to commit it.
    7. Press commit button in buttom of app
+        EKSAPLES:
+        
