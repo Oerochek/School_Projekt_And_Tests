@@ -1,6 +1,5 @@
 int a = 7;
 void setup(){
-  
   size(600, 400);
 }
 void draw(){
