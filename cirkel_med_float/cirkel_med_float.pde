@@ -1,5 +1,5 @@
-float X = 100;
-float Y = 100;
+float X = 101.9;
+float Y = 101.5;
 float size_of_a_cirkle = 100;
 float ran; // update itsef in draw
 
