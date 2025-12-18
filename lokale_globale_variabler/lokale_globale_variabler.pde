@@ -7,6 +7,6 @@ void setup() {
 void draw() {
 
   //har får vi en feilmelding, og programmet kan ikke kjøres
-
+  //commit test
   println(navn, "er:", alder);
 }
