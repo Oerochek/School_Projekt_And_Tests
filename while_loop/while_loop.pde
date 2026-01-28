@@ -1,11 +1,12 @@
+int i = 0;
 void setup(){
     size(600, 400);
-    int i = 0;
+    
+}
+void draw(){
+    background(100);
     while (i < 10) {
         println(i); 
         i = i + 1;
     }
-}
-void draw(){
-    background(100);
 }
