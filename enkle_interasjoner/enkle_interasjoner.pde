@@ -16,50 +16,50 @@ int avstand = 64;
 int lengde = 400;
 
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);   
+line (x, y, y, x + lengde);   
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);
+line (x, y, y, x + lengde);
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);   
+line (x, y, y, x + lengde);   
 
 
 y = y + avstand;
 
-line (x, y, x + lengde, y);   
+line (x, y, y, x + lengde);   
 }
