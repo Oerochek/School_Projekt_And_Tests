@@ -37,6 +37,8 @@ line (x, y, x + lengde, y);
 y = y + avstand;
 
 line (x, y, x + lengde, y);   
+
+
 y = y + avstand;
 
 line (x, y, x + lengde, y);
