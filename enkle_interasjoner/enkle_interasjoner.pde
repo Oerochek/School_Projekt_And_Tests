@@ -1,9 +1,6 @@
 void setup(){
     size(1024, 768);
     background(255);
-}
-void draw(){
-
 stroke(0);
 
 
@@ -15,51 +12,11 @@ int avstand = 64;
 
 int lengde = 400;
 
+int i = 0;
 
-line (x, y, y, x + lengde);
-
-
+while (i < 5) {
+line (x, y, x + lengde, y);
 y = y + avstand;
-
-line (x, y, y, x + lengde);
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);   
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);   
-
-
-y = y + avstand;
-
-line (x, y, y, x + lengde);   
+i++;
+} 
 }
