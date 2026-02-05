@@ -3,8 +3,8 @@ void setup(){
     for(int i = 0; i < array.length; i++){
         println(array[i]);
     }
-    sort(array); //this function sorts the array from lower to upper
+    sort(array); //this function sorts the array from lower to upper (it olso can sort floats and strings if you use lenght as a parameter)
     println(array);
-    reverse(array); //this function reverses(olso sorts) the array from upper to lower
+    reverse(array); //this function reverses(olso sorts) the array from upper to lower (it olso can sort floats and strings if you use lenght as a parameter)
     println(array);
 }
