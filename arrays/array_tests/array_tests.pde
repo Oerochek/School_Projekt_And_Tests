@@ -1,14 +1,13 @@
-String[] names = {"Bohdan", "Oksana", "Taras", "Maria", "Ivan", "Olena", "Petro", "Sofia", "Mykola", "Anna"};
-String[] isStudent = new String[names.length];
+int[]num = {12,4,56};
 void setup(){
-    for(int i = 0; i < names.length; i++){
-        println(names[i]);
-        int random = int(random(2));
-        if(random == 1){
-            isStudent[i] = "Student";
-        } else {
-            isStudent[i] = "Not Student";
-        }
-        println(isStudent[i]);
-    }
+size(1024, 724);
+background(255);
+}
+void draw()
+{
+  for(int i=0; i<3;i++){
+  println(num);
+    textSize(12);
+  text("Verdien numer" + i + " "+ num[i], 100, 100+i*14);
+}
 }
