@@ -11,6 +11,13 @@ float medianverdi(int[] list){
 }
 
 void setup(){
-    int[] list = {1, 2, 3, 4, 5, 20, 6, 2};
-    println(medianverdi(list));
+    size(1600, 800);
+    float median;
+    int[] list = {1, 2, 3, 4, 5, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200};
+    median = medianverdi(list);
+    println(median);
+    for (int i = 1; i <= median; i++){
+        println(i);
+        circle(i * 100, 400, 100);
+    }
 }
