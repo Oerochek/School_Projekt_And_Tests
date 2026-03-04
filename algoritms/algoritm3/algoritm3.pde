@@ -1,8 +1,11 @@
 int averageVerdi(int[] list){
     int sum = 0;
+    println(sum + " sum before loop");
+    println(list.length + " list length");
     for (int i = 0; i < list.length; i++){
         sum += list[i];
     }
+    println(sum + " sum after loop");
     return sum / list.length;
 }
 
